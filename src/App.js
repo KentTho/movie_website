@@ -1,14 +1,13 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import DetailPage from "./pages/DetailPage";
+// src/App.js
+import React from 'react';
+import MainLayout from './layout/MainLayout';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/movie/:id" element={<DetailPage />} />
-      </Routes>
-    </Router>
+    <MainLayout>
+      
+    </MainLayout>
   );
 }
 
